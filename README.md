@@ -11,42 +11,5 @@
 Программа взаимодействует со стандартным потоком ввода-вывода и управляется командами в консоли. В консоль передаются команды: draw и exit, или координаты хода в формате xi-zj, например e2-f3. Пользователь может вводить команды на любом шаге.
 
 # Пример
-Ввод: 
-e2-e4
-f7-f5
-balance white
-balance black
-e4-f5
-balance white
-balance black
-draw
-exit
+![image](https://github.com/user-attachments/assets/7f548e5f-3978-4f14-9dd8-4838bb5c3fbc)
 
-Вывод:
-white 1:
-black 1:
-white 2:
-0
-white 2:
-0
-white 2:
-black 2:
-1
-black 2:
--1
-black 2:
-
-   A B C D E F G H
-
-8  r n b q k b n r  8
-7  p p p p p . p p  7
-6  . . . . . . . .  6
-5  . . . . . P . .  5
-4  . . . . . . . .  4
-3  . . . . . . . .  3
-2  P P P P . P P P  2
-1  R N B Q K B N R  1
-
-   A B C D E F G H
-
-black 2:
